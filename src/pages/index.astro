@@ -1,0 +1,32 @@
+---
+import Welcome from '../components/Welcome.astro';
+import Layout from '../layouts/Layout.astro';
+import About from '@/components/sections/About.astro';
+import Educatio from '@/components/sections/Education.astro';
+import Experience from '@/components/sections/Experience.astro';
+import Hero from '@/components/sections/Hero.astro';
+import Projects from '@/components/sections/Projects.astro';
+import Skills from '@/components/sections/Skills.astro';
+import KeyboardManager from '@/components/KeyboardManager.astro';
+---
+
+<Layout title="Mi portafolio web">
+	<main>
+		<Hero />
+		<About />
+		<Skills />
+		<Experience />
+		<Educatio />
+		<Projects />
+	</main>
+	<KeyboardManager />
+	<Welcome />
+</Layout>
+
+<style>
+	main{
+		padding: 4rem;
+		margin: auto;
+		widht : 100%;
+	}
+</style>
