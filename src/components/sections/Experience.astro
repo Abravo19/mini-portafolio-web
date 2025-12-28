@@ -2,47 +2,77 @@
 import WorldMap from "@/icons/WorldMap.astro";
 import Section from "../Section.astro";
 
-import { work } from "@cv"
-import { startsWithDotDotSlash } from "node_modules/astro/dist/core/path";
+import { work } from "@cv";
 ---
 
-<Section title="Experience">
-    <ul>
-        {work.map(({name, startDate, endDate, position, summary, highlights}) => {
-            const startYear = new Date(startDate).getFullYear();
-            const endYear = endDate !== null ? new Date(endDate).getFullYear() : "Present";
-            const years = `${startYear}- ${endYear}`
+<Section title="Experience laboral">
+  <ul>
+    {
+      work.map(({ name, startDate, endDate, position, summary }) => {
+        const formatDate = (dateString: string) => {
+          if (dateString.length === 4) return dateString;
+          const date = new Date(dateString);
+          return date.toLocaleDateString("es-ES", {
+            year: "numeric",
+            month: "short",
+            day: "numeric",
+          });
+        };
 
+        const start = formatDate(startDate);
+        const end = endDate ? formatDate(endDate) : "Actualidad";
+        const years = `${start} - ${end}`;
 
-           
-            return(
-            <li>
-                <article>
-                    <header>
-                        <div>
-                    <h3>{name}</h3>
-                    <h4>{position}</h4>
-                        </div>
-                        <time>
-                            {years}
-                        </time>
-                    </header>
-                    <footer>
-                        <p>{summary}</p>
-                    </footer>
-                </article>
-            </li>
-            )
-        }
-    )
-}
-    </ul>
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>{name}</h3>
+                  <h4>{position}</h4>
+                </div>
+
+                <time>{years}</time>
+              </header>
+              <footer>
+                <p>{summary}</p>
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
 </Section>
 
 <style>
-    ul {
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-    }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  article h4 {
+    color: #222;
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85em;
+    min-width: 102px;
+    text-align: right;
+  }
 </style>
