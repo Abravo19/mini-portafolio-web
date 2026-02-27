@@ -148,6 +148,13 @@
   }],
   "skills": [
     {
+      "name": "PHP",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Backend"
+      ]
+    },
+    {
       "name": "HTML",
       "level": "Master",
       "keywords": [
@@ -234,13 +241,93 @@
     "reference": "Reference…"
   }],
   "projects": [{
-    "name": "Project",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
+    "name": "Centre Medical",
+    "startDate": "2025-04-19",
+    "endDate": "2025-05-21",
+    "description": "interface pour de centre medical",
     "highlights": [
-      "Won award at AIHacks 2016"
+      "Projet développé en PHP"
     ],
-    "url": "https://project.com/"
+    "url": "https://github.com/TheoCollin54/centremedical.git"
+  },
+  {
+    "name": "P-diatre",
+    "startDate": "2026-01-21",
+    "endDate": "2026-01-22",
+    "description": "Interface web pour le projet P-diatre",
+    "highlights": [
+      "Projet développé en TypeScript"
+    ],
+    "url": "https://github.com/Abravo19/P-diatre.git"
+  },
+  {
+    "name": "P-diatreAccueil",
+    "startDate": "2026-01-21",
+    "endDate": "2026-01-22",
+    "description": "Interface d'accueil pour le projet P-diatre",
+    "highlights": [
+      "Projet développé en TypeScript"
+    ],
+    "url": "https://github.com/Abravo19/P-diatreAccueil.git"
+  },
+  {
+    "name": "AgoraGo",
+    "startDate": "2025-09-18",
+    "endDate": "2025-12-04",
+    "description": "Application web AgoraGo",
+    "highlights": [
+      "Projet développé en PHP"
+    ],
+    "url": "https://github.com/Abravo19/AgoraGo.git"
+  },
+  {
+    "name": "AutoEcole",
+    "startDate": "2026-02-03",
+    "endDate": "2026-02-03",
+    "description": "Application pour auto-école",
+    "highlights": [
+      "Projet développé en TypeScript"
+    ],
+    "url": "https://github.com/Abravo19/AutoEcole.git"
+  },
+  {
+    "name": "NeoPulse",
+    "startDate": "2026-01-23",
+    "endDate": "2026-01-26",
+    "description": "Application web NeoPulse",
+    "highlights": [
+      "Projet développé en TypeScript"
+    ],
+    "url": "https://github.com/Abravo19/NeoPulse.git"
+  },
+  {
+    "name": "ParcSportsVandoeuvre",
+    "startDate": "2026-01-27",
+    "endDate": "2026-01-28",
+    "description": "Pour l'interface ParcSportsVandoeuvre",
+    "highlights": [
+      "Projet développé en TypeScript"
+    ],
+    "url": "https://github.com/Abravo19/ParcSportsVandoeuvre.git"
+  },
+  {
+    "name": "Aftral-Kiosk-experience",
+    "startDate": "2026-02-11",
+    "endDate": "2026-02-13",
+    "description": "Expérience de borne interactive Aftral",
+    "highlights": [
+      "Projet développé en TypeScript"
+    ],
+    "url": "https://github.com/Abravo19/Aftral-Kiosk-experience.git"
+  },
+  {
+    "name": "Système de collecte et emails (Make)",
+    "startDate": "2026-01-5",
+    "endDate": "2026-02-13",
+    "description": "Création d'un système automatisé de collecte de données d'entreprises et d'envoi d'e-mails à l'aide de Make",
+    "highlights": [
+      "Intégration Apify, Google Sheets et Email"
+    ],
+    "url": "https://eu1.make.com/public/shared-scenario/50WMfqWkuVh/integration-apify-google-sheets-copy"
   }]
 }
