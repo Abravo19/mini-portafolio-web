@@ -5,7 +5,7 @@ import Section from "../Section.astro";
 import { work } from "@cv";
 ---
 
-<Section title="Experience laboral">
+<Section title="Experience travail">
   <ul>
     {
       work.map(({ name, startDate, endDate, position, summary }) => {
@@ -19,7 +19,7 @@ import { work } from "@cv";
           });
         };
 
-        const start = formatDate(startDate);
+        const start = startDate ? formatDate(startDate) : "";
         const end = endDate ? formatDate(endDate) : "Actualidad";
         const years = `${start} - ${end}`;
 

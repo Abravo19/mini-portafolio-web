@@ -38,23 +38,67 @@
     ]
   },
   {
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
+    "name": "Infosel",
+    "position": "Stagiere en reparation et maintenance informatique",
+    "url": "",
+    "startDate": "2022-04-25",
+    "endDate": "2022-05-06",
+    "summary": "Pendent mon 2eme periode d'stage dans l'entreprise infosel j'ai fait des installation de OS,maintenance, mise à jour des PC et aussi de reaconditionnement de PC.",
     "highlights": [
       "Started the company"
     ]
     },
     {
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
+    "name": "SOS Future",
+    "position": "Stagiere en reparation, maintenance informatique et reseptionniste de colis",
+    "url": "https://www.sos-futur.fr/",
+    "startDate": "2023-01-04",
+    "endDate": "2023-02-14",
+    "summary": "Pendent mon Stage de dans l'entreprise SOS Future j'ai fait des installation de OS,maintenance, mise à jour des PC et aussi de reaconditionnement de PC. En plus de ça j'ai aussi fait le reseptionniste de colis.",
+    "highlights": [
+      "Started the company"
+    ]
+    },
+    {
+    "name": "Arelia",
+    "position": "Stagiere en reparation, maintenance informatique et installation de reseaux",
+    "url": "https://arelia-asso.fr/",
+    "startDate": "2023-05-01",
+    "endDate": "2023-06-26",
+    "summary": "Pendent mon 2eme periode d'stage dans l'entreprise Arelia j'ai fait des installation de OS, maintenance, mise à jour des PC et aussi de reaconditionnement de PC. En plus de ça j'ai aussi fait des installations de réseaux.",
+    "highlights": [
+      "Started the company"
+    ]
+    },
+    {
+    "name": "ST Catherine High School",
+    "position": "Stagiere en reparation, maintenance informatique, prepations de planing de transport scolaire et installation de reseaux",
+    "url": "https://stcatherines.eu/",
+    "startDate": "2023-08-18",
+    "endDate": "2023-09-14",
+    "summary": "Pendent mon periode d'stage dans le colegé St Catherine High School j'ai fait des maintenance, mise à jour des PC et aussi de reaconditionnement de PC. En plus de ça j'ai aussi fait des installations de réseaux et la prepation de planing de transport scolaire.",
+    "highlights": [
+      "Started the company"
+    ]
+    },
+        {
+    "name": "SOS Future",
+    "position": "Stagiere en reparation, maintenance informatique et reseptionniste de colis",
+    "url": "https://www.sos-futur.fr/",
+    "startDate": "2024-01-15",
+    "endDate": "2024-02-11",
+    "summary": "Pendent mon Stage de dans l'entreprise SOS Future j'ai fait des installation de OS,maintenance, mise à jour des PC et aussi de reaconditionnement de PC. En plus de ça j'ai aussi fait le reseptionniste de colis.",
+    "highlights": [
+      "Started the company"
+    ]
+    },
+        {
+    "name": "MP44",
+    "position": "Stagiere developpement des interfaces web pour des borne interactives",
+    "url": "https://www.mp44.fr/",
+    "startDate": "2025-05-19",
+    "endDate": "2025-07-5",
+    "summary": "Lors de mon stage chez MP44, ma mission consistait à développer des applicationsdestinées à des bornes interactives, au diferrent partenaire de l'entreprise comment les cabinet medical, les centre de loisirs etc.",
     "highlights": [
       "Started the company"
     ]
@@ -176,7 +220,7 @@
   ],
   "languages": [{
     "language": "English",
-    "fluency": "Native speaker"
+    "fluency": "B1 Intermediate"
   }],
   "interests": [{
     "name": "Wildlife",
