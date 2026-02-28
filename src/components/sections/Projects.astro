@@ -20,11 +20,9 @@ import { projects } from "@cv";
                 <p>{description}</p>
               </header>
               <footer>
-                <ul>
-                  {highlights.map((highlight) => {
-                    return <span>{highlight}</span>;
-                  })}
-                </ul>
+                {highlights.map((highlight) => {
+                  return <span>{highlight}</span>;
+                })}
               </footer>
             </article>
           </li>
@@ -76,12 +74,12 @@ import { projects } from "@cv";
     }
 
     footer span {
-      border-radius: 6px;
-      background: #eee;
-      color: black;
-      font-size: 0.8rem;
+      border-radius: 4px;
+      background: #f1f5f9;
+      color: #334155;
+      font-size: 0.65rem;
       font-weight: 500;
-      padding: 0.2rem 0.6rem;
+      padding: 0.2rem 0.4rem;
     }
   </style>
 </Section>

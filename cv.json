@@ -6,7 +6,7 @@
     "email": "gabdomont19@gmail.com",
     "phone": "0627735321",
     "url": "",
-    "summary": "Salut, Je m'appele Gabriel, étudiant en seconde année de BTS Services Informatiques aux Organisations (SIO) au lycée Frédéric Chopin, pour devenir développeur informatique.",
+    "summary": "étudiant en seconde année de BTS Services Informatiques aux Organisations (SIO) au lycée Frédéric Chopin, pour devenir développeur informatique fullstack.",
     "location": {
       "address": "9 rue François Evrard",
       "postalCode": "54140",
@@ -116,15 +116,27 @@
     ]
   }],
   "education": [{
-    "institution": "University",
+    "institution": "Lycée Jean Prouvé",
     "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
+    "area": "Bacheloreat Professionnel en Reseaux informatiques et systemes comunicants",
+    "studyType": "Bacheloreat Professionnel",
+    "startDate": "2021-08-02",
+    "endDate": "2024-06-30",
     "score": "4.0",
     "courses": [
-      "DB1101 - Basic SQL"
+      "étude sur les systeme des reseaux et des systemes comunicants pour des intreprise"
+    ]
+  },
+  {
+    "institution": "Lycée Frédéric Chopin",
+    "url": "https://institution.com/",
+    "area": "Brevet technicien supérieur en Services informatiques aux organisations",
+    "studyType": "Brevet technicien supérieur",
+    "startDate": "2024-08-02",
+    "endDate": "2026-06-30",
+    "score": "4.0",
+    "courses": [
+      "Programation Fullstack en developpement web"
     ]
   }],
   "awards": [{
@@ -149,21 +161,21 @@
   "skills": [
     {
       "name": "PHP",
-      "level": "Master",
+      "level": "Intermediaire",
       "keywords": [
         "Desarrollo Web", "Backend"
       ]
     },
     {
       "name": "HTML",
-      "level": "Master",
+      "level": "Intermediaire",
       "keywords": [
         "Desarrollo Web", "Frontend"
       ]
     },
     {
       "name": "CSS",
-      "level": "Master",
+      "level": "Intermediaire",
       "keywords": [
         "Desarrollo Web", "Frontend", "Diseño Responsive"
       ]
@@ -246,7 +258,13 @@
     "endDate": "2025-05-21",
     "description": "interface pour de centre medical",
     "highlights": [
-      "Projet développé en PHP"
+      "PHP",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MySQL",
+      "Git",
+      "GitHub"
     ],
     "url": "https://github.com/TheoCollin54/centremedical.git"
   },
@@ -256,7 +274,9 @@
     "endDate": "2026-01-22",
     "description": "Interface web pour le projet P-diatre",
     "highlights": [
-      "Projet développé en TypeScript"
+      "typescript",
+      "HTML"
+
     ],
     "url": "https://github.com/Abravo19/P-diatre.git"
   },
@@ -266,7 +286,8 @@
     "endDate": "2026-01-22",
     "description": "Interface d'accueil pour le projet P-diatre",
     "highlights": [
-      "Projet développé en TypeScript"
+      "TypeScript",
+      "HTML"
     ],
     "url": "https://github.com/Abravo19/P-diatreAccueil.git"
   },
@@ -276,7 +297,12 @@
     "endDate": "2025-12-04",
     "description": "Application web AgoraGo",
     "highlights": [
-      "Projet développé en PHP"
+      "PHP",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Twig"
+
     ],
     "url": "https://github.com/Abravo19/AgoraGo.git"
   },
@@ -286,7 +312,8 @@
     "endDate": "2026-02-03",
     "description": "Application pour auto-école",
     "highlights": [
-      "Projet développé en TypeScript"
+      "TypeScript",
+      "HTML"
     ],
     "url": "https://github.com/Abravo19/AutoEcole.git"
   },
@@ -296,7 +323,8 @@
     "endDate": "2026-01-26",
     "description": "Application web NeoPulse",
     "highlights": [
-      "Projet développé en TypeScript"
+      "TypeScript",
+      "HTML"
     ],
     "url": "https://github.com/Abravo19/NeoPulse.git"
   },
@@ -306,7 +334,8 @@
     "endDate": "2026-01-28",
     "description": "Pour l'interface ParcSportsVandoeuvre",
     "highlights": [
-      "Projet développé en TypeScript"
+      "TypeScript",
+      "HTML"
     ],
     "url": "https://github.com/Abravo19/ParcSportsVandoeuvre.git"
   },
@@ -316,7 +345,8 @@
     "endDate": "2026-02-13",
     "description": "Expérience de borne interactive Aftral",
     "highlights": [
-      "Projet développé en TypeScript"
+      "TypeScript",
+      "HTML"
     ],
     "url": "https://github.com/Abravo19/Aftral-Kiosk-experience.git"
   },
@@ -326,7 +356,11 @@
     "endDate": "2026-02-13",
     "description": "Création d'un système automatisé de collecte de données d'entreprises et d'envoi d'e-mails à l'aide de Make",
     "highlights": [
-      "Intégration Apify, Google Sheets et Email"
+      "Apify",
+      "Google Sheets",
+      "Brevo",
+      "Make",
+      "Email"
     ],
     "url": "https://eu1.make.com/public/shared-scenario/50WMfqWkuVh/integration-apify-google-sheets-copy"
   }]
