@@ -4,13 +4,13 @@ import Section from "../Section.astro";
 import { education } from "@cv";
 ---
 
-<Section title="Mes études">
+<Section title="Mes études" id="etudes">
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {
         const startYear = new Date(startDate).getFullYear();
         const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actualidad";
+          endDate != null ? new Date(endDate).getFullYear() : "Aujourd'hui";
         const years = `${startYear} - ${endYear}`;
 
         return (

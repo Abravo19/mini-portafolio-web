@@ -50,7 +50,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join("&bull");
           phone && (
             <a
               href={`tel:${phone}`}
-              title={`Appeler par telephone a ${name} Numero ${email}`}
+              title={`Appeler ${name} au ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -65,7 +65,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join("&bull");
             return (
               <a
                 href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
+                title={`Visiter le profil de ${name} sur ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >

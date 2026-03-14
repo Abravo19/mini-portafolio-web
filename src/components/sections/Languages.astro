@@ -1,0 +1,43 @@
+---
+import Section from "../Section.astro";
+
+import { languages } from "@cv";
+---
+
+<Section title="Langues" id="langues">
+  <ul>
+    {
+      languages.map(({ language, fluency }) => (
+        <li>
+          <span class="language">{language}</span>
+          <span class="fluency">{fluency}</span>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .language {
+    font-weight: 500;
+    color: #111;
+    font-size: 0.9rem;
+  }
+
+  .fluency {
+    color: #555;
+    font-size: 0.85rem;
+  }
+</style>

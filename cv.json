@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Gabriel Alberto BRAVO DOMONT",
-    "label": "étudiant en BTS SIO pour devenir développeur informatique",
+    "label": "Étudiant en BTS SIO pour devenir développeur informatique fullstack",
     "image": "/Foto1.jpg",
     "email": "gabdomont19@gmail.com",
     "phone": "0627735321",
     "url": "",
-    "summary": "étudiant en seconde année de BTS Services Informatiques aux Organisations (SIO) au lycée Frédéric Chopin, pour devenir développeur informatique fullstack.",
+    "summary": "Étudiant en seconde année de BTS Services Informatiques aux Organisations (SIO), option SLAM, au lycée Frédéric Chopin. Passionné par le développement web fullstack, je cherche à construire des applications qui allient performance et expérience utilisateur.",
     "location": {
       "address": "9 rue François Evrard",
       "postalCode": "54140",
@@ -27,290 +27,283 @@
   ]
   },
   "work": [{
-    "name": "Infosel",
-    "position": "Stagiere en reparation et maintenance informatique",
-    "url": "",
-    "startDate": "2021-11-29",
-    "endDate": "2021-12-19",
-    "summary": "Pendent mon stage dans l'entreprise infosel j'ai fait des installation de OS,maintenance, mise à jour des PC et aussi de reaconditionnement de PC.",
+    "name": "MP44",
+    "position": "Stagiaire développeur web",
+    "url": "https://www.mp44.fr/",
+    "startDate": "2025-01-05",
+    "endDate": "2025-02-13",
+    "summary": "",
     "highlights": [
-      "Started the company"
+      "Développement d'interfaces web pour bornes interactives",
+      "Intégration de contenus pour cabinets médicaux et centres de loisirs",
+      "Mise en pratique de TypeScript et HTML en contexte professionnel",
+      "Creation des systemes d'automatisation des taches"
     ]
   },
-  {
-    "name": "Infosel",
-    "position": "Stagiere en reparation et maintenance informatique",
-    "url": "",
-    "startDate": "2022-04-25",
-    "endDate": "2022-05-06",
-    "summary": "Pendent mon 2eme periode d'stage dans l'entreprise infosel j'ai fait des installation de OS,maintenance, mise à jour des PC et aussi de reaconditionnement de PC.",
+    {
+    "name": "MP44",
+    "position": "Stagiaire développeur web",
+    "url": "https://www.mp44.fr/",
+    "startDate": "2025-05-19",
+    "endDate": "2025-07-05",
+    "summary": "",
     "highlights": [
-      "Started the company"
+      "Développement d'interfaces web pour bornes interactives",
+      "Intégration de contenus pour cabinets médicaux et centres de loisirs",
+      "Mise en pratique de TypeScript et HTML en contexte professionnel"
     ]
     },
     {
     "name": "SOS Future",
-    "position": "Stagiere en reparation, maintenance informatique et reseptionniste de colis",
+    "position": "Stagiaire maintenance informatique",
     "url": "https://www.sos-futur.fr/",
-    "startDate": "2023-01-04",
-    "endDate": "2023-02-14",
-    "summary": "Pendent mon Stage de dans l'entreprise SOS Future j'ai fait des installation de OS,maintenance, mise à jour des PC et aussi de reaconditionnement de PC. En plus de ça j'ai aussi fait le reseptionniste de colis.",
+    "startDate": "2024-01-15",
+    "endDate": "2024-02-11",
+    "summary": "",
     "highlights": [
-      "Started the company"
-    ]
-    },
-    {
-    "name": "Arelia",
-    "position": "Stagiere en reparation, maintenance informatique et installation de reseaux",
-    "url": "https://arelia-asso.fr/",
-    "startDate": "2023-05-01",
-    "endDate": "2023-06-26",
-    "summary": "Pendent mon 2eme periode d'stage dans l'entreprise Arelia j'ai fait des installation de OS, maintenance, mise à jour des PC et aussi de reaconditionnement de PC. En plus de ça j'ai aussi fait des installations de réseaux.",
-    "highlights": [
-      "Started the company"
+      "Reconditionnement et remise en état de matériel informatique",
+      "Gestion logistique des colis entrants et sortants",
+      "Autonomie sur les interventions techniques"
     ]
     },
     {
     "name": "ST Catherine High School",
-    "position": "Stagiere en reparation, maintenance informatique, prepations de planing de transport scolaire et installation de reseaux",
+    "position": "Stagiaire maintenance informatique et réseaux",
     "url": "https://stcatherines.eu/",
     "startDate": "2023-08-18",
     "endDate": "2023-09-14",
-    "summary": "Pendent mon periode d'stage dans le colegé St Catherine High School j'ai fait des maintenance, mise à jour des PC et aussi de reaconditionnement de PC. En plus de ça j'ai aussi fait des installations de réseaux et la prepation de planing de transport scolaire.",
+    "summary": "",
     "highlights": [
-      "Started the company"
+      "Maintenance du parc informatique de l'établissement",
+      "Installation et configuration de réseaux",
+      "Préparation des plannings de transport scolaire"
     ]
     },
-        {
+    {
+    "name": "Arelia",
+    "position": "Stagiaire maintenance informatique et réseaux",
+    "url": "https://arelia-asso.fr/",
+    "startDate": "2023-05-01",
+    "endDate": "2023-06-26",
+    "summary": "",
+    "highlights": [
+      "Installation et configuration de réseaux locaux (LAN)",
+      "Maintenance logicielle et matérielle des postes",
+      "Support technique auprès des équipes de l'association"
+    ]
+    },
+    {
     "name": "SOS Future",
-    "position": "Stagiere en reparation, maintenance informatique et reseptionniste de colis",
+    "position": "Stagiaire maintenance informatique",
     "url": "https://www.sos-futur.fr/",
-    "startDate": "2024-01-15",
-    "endDate": "2024-02-11",
-    "summary": "Pendent mon Stage de dans l'entreprise SOS Future j'ai fait des installation de OS,maintenance, mise à jour des PC et aussi de reaconditionnement de PC. En plus de ça j'ai aussi fait le reseptionniste de colis.",
+    "startDate": "2023-01-04",
+    "endDate": "2023-02-14",
+    "summary": "",
     "highlights": [
-      "Started the company"
+      "Maintenance et reconditionnement de postes informatiques",
+      "Réception, tri et gestion des colis entrants"
     ]
     },
-        {
-    "name": "MP44",
-    "position": "Stagiere developpement des interfaces web pour des borne interactives",
-    "url": "https://www.mp44.fr/",
-    "startDate": "2025-05-19",
-    "endDate": "2025-07-5",
-    "summary": "Lors de mon stage chez MP44, ma mission consistait à développer des applicationsdestinées à des bornes interactives, au diferrent partenaire de l'entreprise comment les cabinet medical, les centre de loisirs etc.",
+    {
+    "name": "Infosel",
+    "position": "Stagiaire maintenance informatique",
+    "url": "",
+    "startDate": "2022-04-25",
+    "endDate": "2022-05-06",
+    "summary": "",
     "highlights": [
-      "Started the company"
+      "Diagnostic matériel et logiciel de postes informatiques",
+      "Installation d'OS et mises à jour système"
     ]
-    }
+    },
+    {
+    "name": "Infosel",
+    "position": "Stagiaire maintenance informatique",
+    "url": "",
+    "startDate": "2021-11-29",
+    "endDate": "2021-12-19",
+    "summary": "",
+    "highlights": [
+      "Installation et configuration de systèmes d'exploitation (Windows/Linux)",
+      "Reconditionnement de matériel destiné à la revente"
+    ]
+  }
 ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
   "education": [{
-    "institution": "Lycée Jean Prouvé",
-    "url": "https://institution.com/",
-    "area": "Bacheloreat Professionnel en Reseaux informatiques et systemes comunicants",
-    "studyType": "Bacheloreat Professionnel",
-    "startDate": "2021-08-02",
-    "endDate": "2024-06-30",
-    "score": "4.0",
-    "courses": [
-      "étude sur les systeme des reseaux et des systemes comunicants pour des intreprise"
-    ]
+    "institution": "Lycée Frédéric Chopin",
+    "url": "",
+    "area": "BTS Services Informatiques aux Organisations, option SLAM",
+    "studyType": "Brevet de Technicien Supérieur",
+    "startDate": "2024-08-02",
+    "endDate": "2026-06-30"
   },
   {
-    "institution": "Lycée Frédéric Chopin",
-    "url": "https://institution.com/",
-    "area": "Brevet technicien supérieur en Services informatiques aux organisations",
-    "studyType": "Brevet technicien supérieur",
-    "startDate": "2024-08-02",
-    "endDate": "2026-06-30",
-    "score": "4.0",
-    "courses": [
-      "Programation Fullstack en developpement web"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
+    "institution": "Lycée Jean Prouvé",
+    "url": "",
+    "area": "Baccalauréat Professionnel Systèmes Numériques, option RISC",
+    "studyType": "Baccalauréat Professionnel",
+    "startDate": "2021-08-02",
+    "endDate": "2024-06-30"
   }],
   "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
+    "name": "PIX",
+    "date": "",
+    "issuer": "PIX",
+    "url": ""
+  },
+  {
+    "name": "SecNumAcadémie (ANSSI)",
+    "date": "",
+    "issuer": "ANSSI",
+    "url": ""
+  },
+  {
+    "name": "Oracle (en cours)",
+    "date": "",
+    "issuer": "Oracle",
+    "url": ""
   }],
   "skills": [
     {
-      "name": "PHP",
-      "level": "Intermediaire",
-      "keywords": [
-        "Desarrollo Web", "Backend"
-      ]
-    },
-    {
       "name": "HTML",
-      "level": "Intermediaire",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
+      "level": "Intermédiaire",
+      "keywords": ["Développement Web", "Frontend"]
     },
     {
       "name": "CSS",
-      "level": "Intermediaire",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
+      "level": "Intermédiaire",
+      "keywords": ["Développement Web", "Frontend"]
     },
     {
       "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
+      "level": "Intermédiaire",
+      "keywords": ["Développement Web", "Frontend", "Backend"]
     },
     {
       "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
+      "level": "debutant",
+      "keywords": ["Développement Web", "Frontend", "Backend"]
     },
     {
       "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
+      "level": "debutant",
+      "keywords": ["Développement Web", "Frontend"]
+    },
+    {
+      "name": "Next.js",
+      "level": "debutant",
+      "keywords": ["Développement Web", "Frontend"]
+    },
+    {
+      "name": "Node.js",
+      "level": "debutant",
+      "keywords": ["Développement Web", "Backend"]
+    },
+    {
+      "name": "PHP",
+      "level": "debutant",
+      "keywords": ["Développement Web", "Backend"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermédiaire",
+      "keywords": ["Bases de Données", "Backend"]
+    },
+    {
+      "name": "Git",
+      "level": "Intermédiaire",
+      "keywords": ["Contrôle de Versions"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermédiaire",
+      "keywords": ["Contrôle de Versions"]
+    },
+    {
+      "name": "Installation de réseaux",
+      "level": "Intermédiaire",
+      "keywords": ["Maintenance"]
+    },
+    {
+      "name": "Installation des OS",
+      "level": "Intermédiaire",
+      "keywords": ["Maintenance"]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermédiaire",
+      "keywords": ["Développement Web", "Frontend"]
+    },
+    {
+      "name": "React Native",
+      "level": "debutant",
+      "keywords": ["Développement Web", "Frontend"]
+    },
+    {
+      "name": "Symfony",
+      "level": "debutant",
+      "keywords": ["Développement Web", "Backend"]
     }
   ],
   "languages": [{
+    "language": "Español",
+    "fluency": "Langue maternelle"
+  },
+  {
+    "language": "Français",
+    "fluency": "Courant"
+  },
+  {
     "language": "English",
-    "fluency": "B1 Intermediate"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
+    "fluency": "B2 Upper Intermediate"
   }],
   "projects": [{
-    "name": "Centre Medical",
+    "name": "Centre Médical",
     "startDate": "2025-04-19",
     "endDate": "2025-05-21",
-    "description": "interface pour de centre medical",
+    "description": "Application web de gestion de rendez-vous et de patients pour un centre médical",
     "highlights": [
       "PHP",
       "HTML",
       "CSS",
       "JavaScript",
       "MySQL",
-      "Git",
-      "GitHub"
+      "Git"
     ],
     "url": "https://github.com/TheoCollin54/centremedical.git"
-  },
-  {
-    "name": "P-diatre",
-    "startDate": "2026-01-21",
-    "endDate": "2026-01-22",
-    "description": "Interface web pour le projet P-diatre",
-    "highlights": [
-      "typescript",
-      "HTML"
-
-    ],
-    "url": "https://github.com/Abravo19/P-diatre.git"
-  },
-  {
-    "name": "P-diatreAccueil",
-    "startDate": "2026-01-21",
-    "endDate": "2026-01-22",
-    "description": "Interface d'accueil pour le projet P-diatre",
-    "highlights": [
-      "TypeScript",
-      "HTML"
-    ],
-    "url": "https://github.com/Abravo19/P-diatreAccueil.git"
   },
   {
     "name": "AgoraGo",
     "startDate": "2025-09-18",
     "endDate": "2025-12-04",
-    "description": "Application web AgoraGo",
+    "description": "Plateforme web collaborative développée avec Symfony (Twig/PHP)",
     "highlights": [
       "PHP",
       "JavaScript",
       "HTML",
       "CSS",
       "Twig"
-
     ],
     "url": "https://github.com/Abravo19/AgoraGo.git"
   },
   {
-    "name": "AutoEcole",
+    "name": "Système de collecte et e-mails",
+    "startDate": "2026-01-05",
+    "endDate": "2026-02-13",
+    "description": "Système automatisé de collecte de données et d'envoi d'e-mails via Make",
+    "highlights": [
+      "Apify",
+      "Google Sheets",
+      "Brevo",
+      "Make"
+    ],
+    "url": "https://eu1.make.com/public/shared-scenario/50WMfqWkuVh/integration-apify-google-sheets-copy"
+  },
+  {
+    "name": "AutoÉcole",
     "startDate": "2026-02-03",
     "endDate": "2026-02-03",
-    "description": "Application pour auto-école",
+    "description": "Application de gestion pour auto-école avec suivi des élèves",
     "highlights": [
       "TypeScript",
       "HTML"
@@ -321,7 +314,7 @@
     "name": "NeoPulse",
     "startDate": "2026-01-23",
     "endDate": "2026-01-26",
-    "description": "Application web NeoPulse",
+    "description": "Interface de borne interactive moderne avec design dynamique",
     "highlights": [
       "TypeScript",
       "HTML"
@@ -329,10 +322,10 @@
     "url": "https://github.com/Abravo19/NeoPulse.git"
   },
   {
-    "name": "ParcSportsVandoeuvre",
+    "name": "ParcSportsVandœuvre",
     "startDate": "2026-01-27",
     "endDate": "2026-01-28",
-    "description": "Pour l'interface ParcSportsVandoeuvre",
+    "description": "Borne interactive pour le Parc des Sports de Vandœuvre",
     "highlights": [
       "TypeScript",
       "HTML"
@@ -340,28 +333,25 @@
     "url": "https://github.com/Abravo19/ParcSportsVandoeuvre.git"
   },
   {
-    "name": "Aftral-Kiosk-experience",
+    "name": "P-diatre",
+    "startDate": "2026-01-21",
+    "endDate": "2026-01-22",
+    "description": "Interface web pour cabinet pédiatrique",
+    "highlights": [
+      "TypeScript",
+      "HTML"
+    ],
+    "url": "https://github.com/Abravo19/P-diatre.git"
+  },
+  {
+    "name": "Aftral Kiosk",
     "startDate": "2026-02-11",
     "endDate": "2026-02-13",
-    "description": "Expérience de borne interactive Aftral",
+    "description": "Borne interactive pour l'organisme de formation Aftral",
     "highlights": [
       "TypeScript",
       "HTML"
     ],
     "url": "https://github.com/Abravo19/Aftral-Kiosk-experience.git"
-  },
-  {
-    "name": "Système de collecte et emails (Make)",
-    "startDate": "2026-01-5",
-    "endDate": "2026-02-13",
-    "description": "Création d'un système automatisé de collecte de données d'entreprises et d'envoi d'e-mails à l'aide de Make",
-    "highlights": [
-      "Apify",
-      "Google Sheets",
-      "Brevo",
-      "Make",
-      "Email"
-    ],
-    "url": "https://eu1.make.com/public/shared-scenario/50WMfqWkuVh/integration-apify-google-sheets-copy"
   }]
 }

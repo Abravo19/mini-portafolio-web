@@ -1,26 +1,24 @@
 ---
-import WorldMap from "@/icons/WorldMap.astro";
 import Section from "../Section.astro";
 
 import { work } from "@cv";
 ---
 
-<Section title="Experience travail">
+<Section title="Expérience professionnelle" id="experience">
   <ul>
     {
-      work.map(({ name, startDate, endDate, position, summary }) => {
+      work.map(({ name, url, startDate, endDate, position, summary, highlights }) => {
         const formatDate = (dateString: string) => {
           if (dateString.length === 4) return dateString;
           const date = new Date(dateString);
-          return date.toLocaleDateString("es-ES", {
+          return date.toLocaleDateString("fr-FR", {
             year: "numeric",
             month: "short",
-            day: "numeric",
           });
         };
 
         const start = startDate ? formatDate(startDate) : "";
-        const end = endDate ? formatDate(endDate) : "Actualidad";
+        const end = endDate ? formatDate(endDate) : "Aujourd'hui";
         const years = `${start} - ${end}`;
 
         return (
@@ -28,14 +26,27 @@ import { work } from "@cv";
             <article>
               <header>
                 <div>
-                  <h3>{name}</h3>
+                  <h3>
+                    {url ? (
+                      <a href={url} target="_blank" rel="noopener noreferrer">{name}</a>
+                    ) : (
+                      name
+                    )}
+                  </h3>
                   <h4>{position}</h4>
                 </div>
 
                 <time>{years}</time>
               </header>
               <footer>
-                <p>{summary}</p>
+                {summary && <p>{summary}</p>}
+                {highlights && highlights.length > 0 && (
+                  <ul class="highlights">
+                    {highlights.map((highlight) => (
+                      <li>{highlight}</li>
+                    ))}
+                  </ul>
+                )}
               </footer>
             </article>
           </li>
@@ -57,6 +68,15 @@ import { work } from "@cv";
     color: #111;
   }
 
+  article h3 a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  article h3 a:hover {
+    color: #555;
+  }
+
   article h4 {
     color: #222;
     font-weight: 400;
@@ -74,5 +94,25 @@ import { work } from "@cv";
     font-size: 0.85em;
     min-width: 102px;
     text-align: right;
+  }
+
+  footer p {
+    color: #555;
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+  }
+
+  .highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-left: 1rem;
+    list-style: disc;
+  }
+
+  .highlights li {
+    font-size: 0.8rem;
+    color: #444;
+    line-height: 1.4;
   }
 </style>

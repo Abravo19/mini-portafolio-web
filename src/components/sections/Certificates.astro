@@ -1,0 +1,43 @@
+---
+import Section from "../Section.astro";
+
+import { certificates } from "@cv";
+---
+
+<Section title="Certificats" id="certificats">
+  <ul>
+    {
+      certificates.map(({ name, issuer }) => (
+        <li>
+          <span class="name">{name}</span>
+          <span class="issuer">{issuer}</span>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .name {
+    font-weight: 500;
+    color: #111;
+    font-size: 0.9rem;
+  }
+
+  .issuer {
+    color: #555;
+    font-size: 0.85rem;
+  }
+</style>
