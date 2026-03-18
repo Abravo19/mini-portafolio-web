@@ -1,0 +1,208 @@
+---
+import Section from "../Section.astro";
+---
+
+<Section title="Matrice des Compétences (Bloc 1)" id="matrice-competences">
+  <div class="download-container">
+    <a
+      href="/8-1 - BTS SIO - 2025 - Annexe 8-1 - Epreuve E5 - Tableau de synthèse (1).xlsx"
+      class="download-link"
+      download
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="icon"
+      >
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="7 10 12 15 17 10"></polyline>
+        <line x1="12" y1="15" x2="12" y2="3"></line>
+      </svg>
+      <span>Télécharger la Matrice des Compétences (Excel)</span>
+    </a>
+  </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Réalisations professionnelles</th>
+          <th>Période</th>
+          <th>Gérer le patrimoine</th>
+          <th>Développer la présence en ligne</th>
+          <th>Travailler en mode projet</th>
+          <th>Mettre à disposition un service</th>
+          <th>Organiser son développement</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <strong>TP Charte Graphique</strong><br />
+            Création d'une identité visuelle pour Chopin SARL.
+          </td>
+          <td>14/11/25 - 28/11/25</td>
+          <td class="check"></td>
+          <td class="check">X</td>
+          <td class="check"></td>
+          <td class="check"></td>
+          <td class="check"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>TP Gestion de projet & SCRUM</strong><br />
+            Planification (Gantt, PERT), User stories et Planning Poker.
+          </td>
+          <td>En cours de formation</td>
+          <td class="check"></td>
+          <td class="check"></td>
+          <td class="check">X</td>
+          <td class="check"></td>
+          <td class="check"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>TD Veille Informationnelle</strong><br />
+            Mise en place d'une veille avec Feedly, Notion et IA.
+          </td>
+          <td>Oct 2025 - 12/12/25</td>
+          <td class="check"></td>
+          <td class="check"></td>
+          <td class="check"></td>
+          <td class="check"></td>
+          <td class="check">X</td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>Stage 1ère année (MP44)</strong><br />
+            Développement web (PHP, JS, CSS) pour centre médical et casino.
+          </td>
+          <td>19/05/25 - 04/06/25</td>
+          <td class="check"></td>
+          <td class="check">X</td>
+          <td class="check"></td>
+          <td class="check">X</td>
+          <td class="check"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <strong>Stage 2ème année (MP44)</strong><br />
+            Interfaces interactives (React.js), intégration IA, déploiement (Netlify).
+          </td>
+          <td>05/01/26 - 13/02/26</td>
+          <td class="check">X</td>
+          <td class="check">X</td>
+          <td class="check"></td>
+          <td class="check">X</td>
+          <td class="check"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</Section>
+
+<style>
+  .download-container {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .download-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: 1px solid #e2e8f0;
+  }
+
+  .download-link:hover {
+    background-color: #e2e8f0;
+    color: #0f172a;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  }
+
+  .icon {
+    color: #475569;
+  }
+
+  .table-container {
+    overflow-x: auto; /* Permite scroll horizontal en móviles */
+    margin-top: 1rem;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    text-align: left;
+  }
+
+  th,
+  td {
+    padding: 12px;
+    border-bottom: 1px solid #f1f5f9;
+  }
+
+  th {
+    background-color: #f8fafc;
+    font-weight: 600;
+    color: #475569;
+    vertical-align: bottom;
+    white-space: nowrap;
+  }
+
+  td {
+    color: #64748b;
+    vertical-align: top;
+  }
+
+  strong {
+    color: #1e293b;
+    font-weight: 600;
+  }
+
+  .check {
+    text-align: center;
+    font-weight: bold;
+    color: #0284c7;
+  }
+
+  /* Efecto hover profesional al pasar el ratón */
+  tbody tr:hover {
+    background-color: #f8fafc;
+  }
+
+  @media (width <= 700px) {
+    table {
+      font-size: 0.75rem;
+    }
+
+    th,
+    td {
+      padding: 8px;
+    }
+  }
+</style>

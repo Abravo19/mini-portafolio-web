@@ -314,7 +314,7 @@
     "name": "NeoPulse",
     "startDate": "2026-01-23",
     "endDate": "2026-01-26",
-    "description": "Interface de borne interactive moderne avec design dynamique",
+    "description": "Interface de borne interactive moderne avec design dynamique pour les centres de loisirs",
     "highlights": [
       "TypeScript",
       "HTML"
@@ -333,7 +333,7 @@
     "url": "https://github.com/Abravo19/ParcSportsVandoeuvre.git"
   },
   {
-    "name": "P-diatre",
+    "name": "Pediatre",
     "startDate": "2026-01-21",
     "endDate": "2026-01-22",
     "description": "Interface web pour cabinet pédiatrique",
@@ -342,6 +342,17 @@
       "HTML"
     ],
     "url": "https://github.com/Abravo19/P-diatre.git"
+  },
+  {
+    "name": "PediatreAccueil",
+    "startDate": "2026-01-21",
+    "endDate": "2026-01-22",
+    "description": "Interface web pour cabinet pédiatrique dans la réception",
+    "highlights": [
+      "TypeScript",
+      "HTML"
+    ],
+    "url": "https://github.com/Abravo19/PediatreAccueil.git"
   },
   {
     "name": "Aftral Kiosk",
@@ -353,5 +364,16 @@
       "HTML"
     ],
     "url": "https://github.com/Abravo19/Aftral-Kiosk-experience.git"
+  },
+  {
+    "name": "Agoramobile",
+    "startDate": "2026-03-02",
+    "endDate": "2026-04-10",
+    "description": "Application mobile lie avec AgoraGo",
+    "highlights": [
+      "TypeScript",
+      "HTML"
+    ],
+    "url": "https://github.com/Abravo19/agoramobile.git"
   }]
 }
