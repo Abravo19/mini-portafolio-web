@@ -1,3 +1,5 @@
+Framework utilise: Astro web framework https://astro.build/
+
 Schequema JSON du CV:
 https://jsonresume.org/schema
 
