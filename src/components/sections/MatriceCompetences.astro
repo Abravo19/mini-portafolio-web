@@ -45,7 +45,13 @@ import Section from "../Section.astro";
       <tbody>
         <tr>
           <td>
-            <strong>TP Charte Graphique</strong><br />
+            <a
+              href="https://github.com/Abravo19"
+              target="_blank"
+              class="project-link"
+            >
+              <strong>TP Charte Graphique</strong>
+            </a><br />
             Création d'une identité visuelle pour Chopin SARL.
           </td>
           <td>14/11/25 - 28/11/25</td>
@@ -58,10 +64,35 @@ import Section from "../Section.astro";
 
         <tr>
           <td>
-            <strong>TP Gestion de projet & SCRUM</strong><br />
-            Planification (Gantt, PERT), User stories et Planning Poker.
+            <a
+              href="https://drive.google.com/file/d/1OPpRn6Y4WTiBFfqhEjwVVkvGycOnnwRs/view?usp=sharing"
+              target="_blank"
+              class="project-link"
+            >
+              <strong>AgoraGo (Symfony)</strong>
+            </a><br />
+            Plateforme web collaborative avec Twig et PHP.
           </td>
-          <td>En cours de formation</td>
+          <td>18/09/25 - 04/12/25</td>
+          <td class="check"></td>
+          <td class="check">X</td>
+          <td class="check">X</td>
+          <td class="check"></td>
+          <td class="check"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <a
+              href="https://limewire.com/d/pnia1#h1cxjeXgXL"
+              target="_blank"
+              class="project-link"
+            >
+              <strong>Agoramobilese</strong>
+            </a><br />
+            Application mobile collaborative avec React Native.
+          </td>
+          <td>02/03/26 - 19/03/26</td>
           <td class="check"></td>
           <td class="check"></td>
           <td class="check">X</td>
@@ -71,7 +102,13 @@ import Section from "../Section.astro";
 
         <tr>
           <td>
-            <strong>TD Veille Informationnelle</strong><br />
+            <a
+              href="https://github.com/Abravo19"
+              target="_blank"
+              class="project-link"
+            >
+              <strong>TD Veille Informationnelle</strong>
+            </a><br />
             Mise en place d'une veille avec Feedly, Notion et IA.
           </td>
           <td>Oct 2025 - 12/12/25</td>
@@ -84,7 +121,9 @@ import Section from "../Section.astro";
 
         <tr>
           <td>
-            <strong>Stage 1ère année (MP44)</strong><br />
+            <a href="https://www.mp44.fr/" target="_blank" class="project-link">
+              <strong>Stage 1ère année (MP44)</strong>
+            </a><br />
             Développement web (PHP, JS, CSS) pour centre médical et casino.
           </td>
           <td>19/05/25 - 04/06/25</td>
@@ -97,11 +136,74 @@ import Section from "../Section.astro";
 
         <tr>
           <td>
-            <strong>Stage 2ème année (MP44)</strong><br />
+            <a
+              href="https://github.com/TheoCollin54/centremedical.git"
+              target="_blank"
+              class="project-link"
+            >
+              <strong>Centre Médical</strong>
+            </a><br />
+            Gestion de rendez-vous et patients (PHP, MySQL, Git).
+          </td>
+          <td>19/04/25 - 21/05/25</td>
+          <td class="check"></td>
+          <td class="check">X</td>
+          <td class="check"></td>
+          <td class="check">X</td>
+          <td class="check"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <a
+              href="https://drive.google.com/file/d/1_3N6QRLNX8x5LiCo_rH1b-MRAJ11KJHP/view?usp=sharing"
+              target="_blank"
+              class="project-link"
+            >
+              <strong>Stage 2ème année (MP44)</strong>
+            </a><br />
             Interfaces interactives (React.js), intégration IA, déploiement (Netlify).
           </td>
           <td>05/01/26 - 13/02/26</td>
           <td class="check">X</td>
+          <td class="check">X</td>
+          <td class="check"></td>
+          <td class="check">X</td>
+          <td class="check"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <a
+              href="https://eu1.make.com/public/shared-scenario/50WMfqWkuVh/integration-apify-google-sheets-copy"
+              target="_blank"
+              class="project-link"
+            >
+              <strong>Système de collecte (Make)</strong>
+            </a><br />
+            Automatisation de collecte de données et e-mails via Make/Apify.
+          </td>
+          <td>05/01/26 - 13/02/26</td>
+          <td class="check"></td>
+          <td class="check"></td>
+          <td class="check"></td>
+          <td class="check">X</td>
+          <td class="check"></td>
+        </tr>
+
+        <tr>
+          <td>
+            <a
+              href="https://github.com/Abravo19/NeoPulse.git"
+              target="_blank"
+              class="project-link"
+            >
+              <strong>Projets Bornes SIO (NeoPulse/Aftral)</strong>
+            </a><br />
+            Interfaces interactives modernes pour centres de loisirs et formation.
+          </td>
+          <td>Jan 2026 - Fév 2026</td>
+          <td class="check"></td>
           <td class="check">X</td>
           <td class="check"></td>
           <td class="check">X</td>
@@ -182,6 +284,17 @@ import Section from "../Section.astro";
   strong {
     color: #1e293b;
     font-weight: 600;
+  }
+
+  .project-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s ease;
+  }
+
+  .project-link:hover strong {
+    color: #0284c7;
+    text-decoration: underline;
   }
 
   .check {
