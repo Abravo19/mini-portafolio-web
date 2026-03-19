@@ -9,11 +9,10 @@ import { certificates } from "@cv";
     {
       certificates.map(({ name, issuer, url }) => (
         <li>
-          <span class="name">{name}</span>
-          <span class="issuer">{issuer}</span>
-          <a href={url} target="_blank" class="project-link">
-            Voir le certificat
+          <a href={url} target="_blank" class="name">
+            {name}{" "}
           </a>
+          <span class="issuer">{issuer}</span>
         </li>
       ))
     }
