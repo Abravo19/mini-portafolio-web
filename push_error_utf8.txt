@@ -1,0 +1,39 @@
+﻿git : remote: error: Trace: f6
+e976447783e0a45b89422669ffe864
+b8898a96bf47b7cc747aa4ccaea789
+91        
+En línea: 1 Carácter: 1
++ git push origin main > 
+push_error.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+    + CategoryInfo            
+  : NotSpecified:     
+(remote: error: ...e    
+a78991        :Strin    g) 
+[], RemoteExcepti    on
+    + FullyQualifiedErro    
+rId : NativeCommandE    rror
+ 
+remote: error: See 
+https://gh.io/lfs for more 
+information.        
+remote: error: File 
+public/index2.pdf is 127.33 
+MB; this exceeds GitHub's 
+file size limit of 100.00 MB  
+      
+remote: error: GH001: Large 
+files detected. You may want 
+to try Git Large File Storage 
+- https://git-lfs.github.com. 
+       
+To https://github.com/Abravo19
+/mini-portafolio-web.git
+ ! [remote rejected] main -> 
+main (pre-receive hook 
+declined)
+error: failed to push some 
+refs to 'https://github.com/Ab
+ravo19/mini-portafolio-web.git
+'
