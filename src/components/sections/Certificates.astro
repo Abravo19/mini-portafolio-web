@@ -7,10 +7,13 @@ import { certificates } from "@cv";
 <Section title="Certificats" id="certificats">
   <ul>
     {
-      certificates.map(({ name, issuer }) => (
+      certificates.map(({ name, issuer, url }) => (
         <li>
           <span class="name">{name}</span>
           <span class="issuer">{issuer}</span>
+          <a href={url} target="_blank" class="project-link">
+            Voir le certificat
+          </a>
         </li>
       ))
     }
